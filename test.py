@@ -12,6 +12,7 @@ class TestMain(unittest.TestCase):
 
 def test_substraction(self):
       self.assertEqual(main.substraction(5, 4), 1, "Should be 1")
+      self.assertEqual(main.substraction(5, 2), 3, "Should be 3")
       
 if __name__ == ' __main__ ':
     unittest.main() 
